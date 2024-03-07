@@ -1,11 +1,11 @@
-package com.example.first;
+package com.example.annotationconf;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("com.example.first")
+@ComponentScan("com.example.annotationconf")
 public class Config {
     @Bean
     public Engine engine() {

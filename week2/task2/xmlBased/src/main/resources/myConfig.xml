@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="toyota" class="com.example.xmlbased.Car">
+        <constructor-arg index="0" ref="engine"/>
+        <constructor-arg index="1" ref="transmission"/>
+    </bean>
+
+    <bean id="engine" class="com.example.xmlbased.Engine">
+        <constructor-arg index="0" value="v4"/>
+        <constructor-arg index="1" value="2"/>
+    </bean>
+
+    <bean id="transmission" class="com.example.xmlbased.Transmission">
+        <constructor-arg value="sliding"/>
+    </bean>
+
+
+
+</beans>
+
+
