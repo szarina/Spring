@@ -1,12 +1,10 @@
 package com.example.events.sync.customevents;
 
-import org.springframework.context.ApplicationEvent;
-
 public class GenericSpringEvent <T>{
     private T what;
     protected boolean success;
 
-    public GenericSpringEvent(T what, boolean success) {;
+    public GenericSpringEvent(T what) {;
         this.what = what;
         this.success = success;
     }
