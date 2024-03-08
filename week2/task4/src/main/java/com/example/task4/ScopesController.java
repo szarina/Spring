@@ -46,7 +46,7 @@ public class ScopesController {
         sessionScopedBean.setMessage("Session Scope Message!");
         model.addAttribute("currentMessage", sessionScopedBean.getMessage());
         log.info("Session current  message : " + requestScopedBean.getMessage());
-        return sessionScopedBean.getMessage();
+        return "scopesExample";
     }
 
     @RequestMapping("/scopes/application")
