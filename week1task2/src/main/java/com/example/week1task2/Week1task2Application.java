@@ -29,7 +29,7 @@ public class Week1task2Application {
 	public CommandLineRunner run(RestTemplate restTemplate) throws Exception {
 		return args -> {
 			Quote quote = restTemplate.getForObject(
-					"http://localhost:8080/api/random", Quote.class);
+					"http://localhost:1234/api/random", Quote.class);
 			log.info(quote.toString());
 		};
 	}

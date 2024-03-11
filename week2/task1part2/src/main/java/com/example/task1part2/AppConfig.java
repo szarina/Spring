@@ -8,18 +8,12 @@ public class AppConfig {
 
     @Bean
     public Item item1() {
-        return new ItemImpl1(); // Assuming ItemImpl1 is your concrete implementation
+        return new ItemImpl1();
     }
 
     @Bean
-    public Store store(Item item) { // Use method parameter for dependency injection
-        return new Store(item);
+    public Store store() { // Use method parameter for dependency injection
+        return new Store();
     }
 
-//    @Bean
-//    public Store store() {
-//        Store store = new Store();
-//        store.setItem(item1());
-//        return store;
-//    }
 }

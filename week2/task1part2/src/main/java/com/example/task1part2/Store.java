@@ -15,6 +15,7 @@ public class Store {
     public Item getItem(){
         return  this.item;
     }
+    public Store(){};
 
     public Store(Item item) {
         this.item = item;

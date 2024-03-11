@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6cd4386-babc-4c0f-99f4-953f1d369b91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../week6/migrationExample/src/main/java/com/example/migrationexample/migrationversions/v1_init/v1_init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week6/migrationExample/src/main/java/com/example/migrationexample/migrationversions/v2_init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1task2/src/main/java/com/example/week1task2/Week1task2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week1task2/src/main/java/com/example/week1task2/Week1task2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2/task1/src/main/java/com/example/task1/Task1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/task1/src/main/java/com/example/task1/Task1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2/task1/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/task1/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2/task1part2/src/main/java/com/example/task1part2/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/task1part2/src/main/java/com/example/task1part2/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2/task1part2/src/main/java/com/example/task1part2/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/task1part2/src/main/java/com/example/task1part2/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2/task2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/task2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2/task2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/task2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2/task4/src/main/java/com/example/task4/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/task4/src/main/java/com/example/task4/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2/task4/src/main/java/com/example/task4/Task4Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/task4/src/main/java/com/example/task4/Task4Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2/task4/src/main/java/com/example/task4/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/task4/src/main/java/com/example/task4/Testing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/src/main/java/com/example/task3/CrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/task3/src/main/java/com/example/task3/CrudRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/src/main/java/com/example/task3/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/task3/src/main/java/com/example/task3/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/src/main/java/com/example/task3/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/task3/src/main/java/com/example/task3/EmployeeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/chiko/IdeaProjects/Spring/week5",
+    "last_opened_file_path": "C:/Users/chiko/IdeaProjects/Spring/week6",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -47,6 +62,8 @@
       <workItem from="1709912811111" duration="27000" />
       <workItem from="1709920378526" duration="95000" />
       <workItem from="1709920634344" duration="54000" />
+      <workItem from="1709963047215" duration="6000" />
+      <workItem from="1710095416464" duration="6000" />
     </task>
     <servers />
   </component>

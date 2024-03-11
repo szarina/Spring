@@ -1,12 +1,15 @@
 package com.example.task4;
 
 import lombok.Getter;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 public class Person {
     @Getter
     private String name;
 
     public Person() {
+        log.info("i'm here!");
     }
 
     public Person(final String name) {

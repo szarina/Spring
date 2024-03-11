@@ -1,0 +1,16 @@
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5433/inventory
+#    username: postgres
+#    password: 'sadZahuawei2004@'
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+#  flyway:
+#    baseline-on-migrate: true
+#    table: lab6_spring_schema_history
+#    baseline-version: 0
+#    locations: classpath:db/migrations

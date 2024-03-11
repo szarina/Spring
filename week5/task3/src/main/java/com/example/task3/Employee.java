@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 import java.time.LocalDate;
 
 @Entity
+
 @Table(name = "employees")
 public class Employee {
 
@@ -27,6 +28,10 @@ public class Employee {
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public Employee() {

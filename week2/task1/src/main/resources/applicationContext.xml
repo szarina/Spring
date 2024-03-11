@@ -8,15 +8,15 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
     <bean id="item" class="com.example.task1.ItemImpl1" />
 
+<!--    Constructor-->
+<!--    <bean id="store" class="com.example.task1.Store">-->
+<!--        <constructor-arg type="com.example.task1.Item" index="0" name="item" ref="item" />-->
+<!--    </bean>-->
 
-    <bean id="store" class="com.example.task1.Store">
-        <constructor-arg type="com.example.task1.Item" index="0" name="item" ref="item" />
-    </bean>
 
 
-
-    <!--Set -->
-<!--    <bean id="store2" class="com.example.task1.Store">-->
+<!--    Set-->
+<!--    <bean id="store" class="com.example.task1.Store">-->
 <!--        <property name="item" ref="item" />-->
 <!--    </bean>-->
 

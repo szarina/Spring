@@ -16,8 +16,8 @@ public class Testing {
         ApplicationContext applicationContext =
                 new ClassPathXmlApplicationContext("scopes.xml");
 
-        Person personSingletonA = (Person) applicationContext.getBean("personSingleton");
-        Person personSingletonB = (Person) applicationContext.getBean("personSingleton");
+        Person personSingletonA = (Person) applicationContext.getBean("personPrototype");
+        Person personSingletonB = (Person) applicationContext.getBean("personPrototype");
 
         personSingletonA.setName(NAME);
         Assert.assertEquals(NAME, personSingletonB.getName());

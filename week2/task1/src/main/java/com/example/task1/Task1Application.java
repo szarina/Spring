@@ -13,14 +13,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Task1Application {
 
     public static void main(String[] args) {
-        //SpringApplication.run(Task1Application.class, args);
 
-//        ApplicationContext context
-//                = new ClassPathXmlApplicationContext("applicationContext.xml");
-
-//        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-//        //context.refresh();
-//        Store store = context.getBean(Store.class);
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         Store store = context.getBean("store",Store.class);
 

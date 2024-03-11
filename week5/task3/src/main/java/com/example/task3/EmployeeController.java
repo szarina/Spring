@@ -1,9 +1,6 @@
 package com.example.task3;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class EmployeeController {
@@ -21,6 +18,16 @@ public class EmployeeController {
 
     @PostMapping("/employees")
     public Employee addOneEmployee(@RequestBody Employee employee) {
+
         return this.employeeRepository.save(employee);
     }
+
+    @PutMapping("/employees")
+    public Employee updateEmployee(@RequestParam(value = "id") Integer id,@RequestParam(value = "firstName") String firstName){
+
+        Employee e = this.employeeRepository.findById(id).get();
+        e.setFirstName(firstName);
+        return  this.employeeRepository.save(e);
+    }
+
 }

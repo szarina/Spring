@@ -1,0 +1,1 @@
+ALTER TABLE inv.products ADD COLUMN created_on TIMESTAMP NOT NULL ;
