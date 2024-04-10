@@ -5,6 +5,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.ws.client.core.support.WebServiceGatewaySupport;
 import org.springframework.ws.soap.client.core.SoapActionCallback;
 
+import com.example.task1.wsdl.GetCountryRequest;
+import com.example.task1.wsdl.GetCountryResponse;
 public class CountryClient extends WebServiceGatewaySupport {
 
     private static final Logger log = LoggerFactory.getLogger(CountryClient.class);
