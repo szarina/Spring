@@ -1,0 +1,1 @@
+ALTER TABLE inv.products ADD COLUMN  testColumnn INTEGER DEFAULT 0;
