@@ -1,7 +1,7 @@
 package com.example.task1.product;
 
-import  javax.persistence.*;
-import  javax.validation.constraints.*;
+import  jakarta.persistence.*;
+import  jakarta.validation.constraints.*;
 
 import org.hibernate.validator.constraints.Length;
 

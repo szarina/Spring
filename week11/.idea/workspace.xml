@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5c4fbbc6-eda5-46fe-8d9d-b47b84d6d919" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../week10/week1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week10/week1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/ApplicationSecurity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/Task1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/jwt/JwtTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/jwt/JwtTokenUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/product/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/product/ProductApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/product/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/user/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/user/api/AuthApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/user/api/AuthRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/user/api/AuthResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/src/test/java/com/example/task1/Task1ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/task1/src/test/java/com/example/task1/UserRepositoryTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +37,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2ezv7Tq2fpoWdYNyLMvMaAnQQwj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,7 +54,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/chiko/IdeaProjects/Spring/week11",
+    "last_opened_file_path": "C:/Users/chiko/IdeaProjects/Spring/week11/task2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -39,6 +72,9 @@
       <option name="presentableId" value="Default" />
       <updated>1712920054037</updated>
       <workItem from="1712920055036" duration="21000" />
+      <workItem from="1712946648424" duration="7000" />
+      <workItem from="1712946724064" duration="401000" />
+      <workItem from="1712947536243" duration="32000" />
     </task>
     <servers />
   </component>
