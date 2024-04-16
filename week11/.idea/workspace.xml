@@ -5,29 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c4fbbc6-eda5-46fe-8d9d-b47b84d6d919" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../week10/task1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/ApplicationSecurity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/Task1Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/jwt/JwtTokenFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/jwt/JwtTokenUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/product/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/product/ProductApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/product/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/user/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/user/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/user/api/AuthApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/user/api/AuthRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/java/com/example/task1/user/api/AuthResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/src/test/java/com/example/task1/Task1ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/task1/src/test/java/com/example/task1/UserRepositoryTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task22/ApplicationSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task22/jwt/JwtTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task22/jwt/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task22/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task22/product/ProductApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task22/product/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task22/user/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task22/user/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task22/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task22/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task22/user/api/AuthApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task22/user/api/AuthRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task22/user/api/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task22/user/api/UserApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task22/user/api/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task22/user/api/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/task2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/task2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/src/test/java/net/codejava/user/UserRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/task2/src/test/java/net/codejava/user/UserRepositoryTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/chiko/IdeaProjects/Spring/week11/task2",
+    "last_opened_file_path": "C:/Users/chiko/IdeaProjects/Spring/week11/casbin",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,6 +72,7 @@
       <workItem from="1712946648424" duration="7000" />
       <workItem from="1712946724064" duration="401000" />
       <workItem from="1712947536243" duration="32000" />
+      <workItem from="1712954730308" duration="36000" />
     </task>
     <servers />
   </component>
