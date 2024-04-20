@@ -1,6 +1,6 @@
-package com.example.week1.service;
+package com.example.task2.service;
 
-import com.example.week1.model.Greeting;
+import com.example.task2.model.Greeting;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 

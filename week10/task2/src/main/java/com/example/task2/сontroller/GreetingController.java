@@ -1,7 +1,7 @@
-package com.example.week1.сontroller;
+package com.example.task2.сontroller;
 
-import com.example.week1.model.Greeting;
-import com.example.week1.service.GreetingService;
+import com.example.task2.model.Greeting;
+import com.example.task2.service.GreetingService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

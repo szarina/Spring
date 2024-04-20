@@ -1,0 +1,22 @@
+version: '3'
+services:
+  soap-producer:
+    build:
+      context: ./complete
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - soap-network
+
+  soap-consumer:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      - soap-producer
+    networks:
+      - soap-network
+
+networks:
+  soap-network:
